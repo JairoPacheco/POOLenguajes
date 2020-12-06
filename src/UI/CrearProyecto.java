@@ -218,6 +218,7 @@ public class CrearProyecto extends javax.swing.JFrame {
         Singleton singleton = Singleton.getInstance();
         singleton.listaImagenes.addElement(nuevaImagen);
         singleton.listaImagenesModificadas.addElement(imagenModificada);
+        singleton.MeterArchivo();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**

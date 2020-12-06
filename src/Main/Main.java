@@ -20,6 +20,7 @@ public class Main {
      */
     public static void main(String[] args) {
         Singleton sigleton = Singleton.getInstance();
+        sigleton.SacarArchivo();
         MainFrame main = new MainFrame();
         main.setVisible(true);
     }

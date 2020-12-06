@@ -5,11 +5,13 @@
  */
 package Clases;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Jus
  */
-public class ImagenModificada {
+public class ImagenModificada implements Serializable{
     String direccion;
     String tamaño;
     String nombre;
