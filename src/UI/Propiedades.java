@@ -191,8 +191,8 @@ private void selection(String seleccionado){
                 nombre2 = singleton.listaImagenesModificadas.get(i).getNombre();
                 icono = new ImageIcon(singleton.listaImagenes.get(i).getDireccion());
                 icono2 = new ImageIcon(singleton.listaImagenesModificadas.get(i).getDireccion());
-                jButton2.setIcon(new ImageIcon(icono.getImage().getScaledInstance(jButton1.getWidth()+10, jButton1.getHeight(), Image.SCALE_SMOOTH)));
-                jButton3.setIcon(new ImageIcon(icono2.getImage().getScaledInstance(jButton2.getWidth()+10, jButton2.getHeight(), Image.SCALE_SMOOTH)));
+                jButton3.setIcon(new ImageIcon(icono.getImage().getScaledInstance(jButton3.getWidth()+10, jButton3.getHeight(), Image.SCALE_SMOOTH)));
+                jButton2.setIcon(new ImageIcon(icono2.getImage().getScaledInstance(jButton2.getWidth()+10, jButton2.getHeight(), Image.SCALE_SMOOTH)));
             }
         }
     DefaultListModel<String> model = new DefaultListModel<>();
